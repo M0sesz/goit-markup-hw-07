@@ -445,12 +445,6 @@ li {
   margin-bottom: 72px;
 }
 
-@media screen and (max-width: 427px) {
-  .footer-list {
-    justify-content: space-between;
-    gap: 0;
-  }
-}
 .footer-media {
   text-align: center;
   font-weight: 500;
