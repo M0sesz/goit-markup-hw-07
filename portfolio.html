@@ -23,29 +23,102 @@
   <body>
     <header class="header">
       <div class="container container-header">
-        <a href="./index.html" class="logo-header"
-          ><span class="logo-header-web">Web</span>Studio</a
-        >
-        <button type="button" class="open-hamburger js-open-menu">
-          <svg class="icon-hamburger">
-            <use
-              href="./images/symbols-defs.svg#icon-hamburger-open"
-              aria-expanded="false"
-              aria-controls="mobile-menu"
-            ></use>
-          </svg>
-        </button>
-
-        <div class="hamburger-menu js-menu-container">
-          <button class="modal-button js-close-menu">
-            <svg class="icon-close">
-              <use href="./images/symbols-defs.svg#icon-close "></use>
+        <!-----MOBILE HEADER-------->
+        <div class="hedr header-mobile">
+          <a href="./index.html" class="logo-header"
+            ><span class="logo-header-web">Web</span>Studio</a
+          >
+          <button type="button" class="open-hamburger js-open-menu">
+            <svg class="icon-hamburger">
+              <use
+                href="./images/symbols-defs.svg#icon-hamburger-open"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+              ></use>
             </svg>
           </button>
+
+          <div class="hamburger-menu js-menu-container">
+            <button class="modal-button js-close-menu">
+              <svg class="icon-close">
+                <use href="./images/symbols-defs.svg#icon-close "></use>
+              </svg>
+            </button>
+            <nav class="header-nav">
+              <ul class="list-header">
+                <li class="nav-list">
+                  <a href="./index.html" class="item-nav">Studio</a>
+                </li>
+                <li class="nav-list">
+                  <a href="./portfolio.html" class="item-nav">Portfolio</a>
+                </li>
+                <li class="nav-list">
+                  <a href="" class="item-nav">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="down-content">
+              <address>
+                <ul class="addres-header">
+                  <li>
+                    <a href="tel:+110001111111" class="tel-mail"
+                      >+11 (000) 111-11-11</a
+                    >
+                  </li>
+                  <li>
+                    <a href="mailto:info@devstudio.com" class="tel-mail mal"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+              </address>
+
+              <ul class="hamburger-social-list">
+                <li class="social-item">
+                  <a href="#" class="hamburger-link">
+                    <svg class="footer-icon" width="24" height="24">
+                      <use
+                        href="./images/symbols-defs.svg#icon-instagram"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="hamburger-link">
+                    <svg class="hamburger-social-icon" width="24" height="19">
+                      <use href="./images/symbols-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="hamburger-link">
+                    <svg class="hamburger-social-icon" width="24" height="24">
+                      <use href="./images/symbols-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="#" class="hamburger-link">
+                    <svg class="hamburger-social-icon" width="24" height="24">
+                      <use href="./images/symbols-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!------TABLET HEADER-------->
+        <div class="hedr header-tablet">
+          <a href="./index.html" class="logo-header"
+            ><span class="logo-header-web">Web</span>Studio</a
+          >
           <nav class="header-nav">
             <ul class="list-header">
               <li class="nav-list">
-                <a href="./index.html" class="item-nav">Studio</a>
+                <a href="./index.html" class="item-nav underline">Studio</a>
               </li>
               <li class="nav-list">
                 <a href="./portfolio.html" class="item-nav">Portfolio</a>
@@ -55,54 +128,54 @@
               </li>
             </ul>
           </nav>
-
-          <div class="down-content">
-            <address>
-              <ul class="addres-header">
-                <li>
-                  <a href="tel:+110001111111" class="tel-mail"
-                    >+11 (000) 111-11-11</a
-                  >
-                </li>
-                <li>
-                  <a href="mailto:info@devstudio.com" class="tel-mail mal"
-                    >info@devstudio.com</a
-                  >
-                </li>
-              </ul>
-            </address>
-
-            <ul class="hamburger-social-list">
-              <li class="social-item">
-                <a href="#" class="hamburger-link">
-                  <svg class="footer-icon" width="24" height="24">
-                    <use href="./images/symbols-defs.svg#icon-instagram"></use>
-                  </svg>
-                </a>
+          <address>
+            <ul class="addres-header">
+              <li>
+                <a href="mailto:info@devstudio.com" class="tel-mail"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="social-item">
-                <a href="#" class="hamburger-link">
-                  <svg class="hamburger-social-icon" width="24" height="19">
-                    <use href="./images/symbols-defs.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="#" class="hamburger-link">
-                  <svg class="hamburger-social-icon" width="24" height="24">
-                    <use href="./images/symbols-defs.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-item">
-                <a href="#" class="hamburger-link">
-                  <svg class="hamburger-social-icon" width="24" height="24">
-                    <use href="./images/symbols-defs.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
+              <li>
+                <a href="tel:+110001111111" class="tel-mail"
+                  >+11 (000) 111-11-11</a
+                >
               </li>
             </ul>
-          </div>
+          </address>
+        </div>
+
+        <!------DESKTOP HEADER-------->
+        <div class="header-desktop">
+          <nav class="header-nav">
+            <a href="./index.html" class="logo-header"
+              ><span class="logo-header-web">Web</span>Studio</a
+            >
+            <ul class="list-header">
+              <li class="nav-list">
+                <a href="./index.html" class="item-nav underline">Studio</a>
+              </li>
+              <li class="nav-list">
+                <a href="./portfolio.html" class="item-nav">Portfolio</a>
+              </li>
+              <li class="nav-list">
+                <a href="" class="item-nav">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="addres-header">
+              <li>
+                <a href="mailto:info@devstudio.com" class="tel-mail"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="tel-mail"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
         </div>
       </div>
     </header>
@@ -338,7 +411,7 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <div>
+        <div class="up-footer">
           <a href="./index.html" class="logo-footer"
             ><span class="logo-footer-foot">Web</span>Studio</a
           >
@@ -383,16 +456,72 @@
         <div class="footer-container-form">
           <p class="text-footer">Subscribe</p>
           <form class="subscribe" autocomplete="on">
-            <div class="subscribe-container">
-              <input type="email" class="input-footer" placeholder="E-mail" />
-              <button type="submit" class="form-footer-button">
-                Subscribe
-                <svg class="subscribe-icon">
-                  <use href="./images/symbols-defs.svg#icon-telegram"></use>
-                </svg>
-              </button>
-            </div>
+            <input type="email" class="input-footer" placeholder="E-mail" />
+            <button type="submit" class="form-footer-button">
+              Subscribe
+              <svg class="subscribe-icon">
+                <use href="./images/symbols-defs.svg#icon-telegram"></use>
+              </svg>
+            </button>
           </form>
+        </div>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <form class="form">
+            <p class="form-title">
+              Leave your contacts and we will call you back
+            </p>
+            <label class="modal-form-item">
+              <span class="modal-label-text label-name">Name</span>
+              <input type="text" name="name" class="modal-input" />
+              <svg class="modal-input-icon">
+                <use href="./images/symbols-defs.svg#icon-person"></use>
+              </svg>
+            </label>
+            <label class="modal-form-item">
+              <span class="modal-label-text">Phone</span>
+              <input type="tel" name="tel" class="modal-input" />
+              <svg class="modal-input-icon">
+                <use href="./images/symbols-defs.svg#icon-phone"></use>
+              </svg>
+            </label>
+            <label class="modal-form-item">
+              <span class="modal-label-text">Email</span>
+              <input type="email" name="mail" class="modal-input" />
+              <svg class="modal-input-icon">
+                <use href="./images/symbols-defs.svg#icon-email"></use>
+              </svg>
+            </label>
+            <label class="modal-form-item text-area">
+              <span class="modal-label-text">Comment</span>
+              <textarea
+                name="comment"
+                class="modal-input modal-textarea"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+            <input
+              type="checkbox"
+              id="user-policy"
+              class="modal-form-check visually-hidden"
+              name="user-policy"
+            />
+            <label for="user-policy" class="modal-form-check-desk"
+              >I accept the terms and conditions of the&nbsp;<a
+                href="#"
+                class="link-form"
+              >
+                Privacy Policy</a
+              ></label
+            >
+            <button type="submit" class="button-form">Send</button>
+          </form>
+          <button class="modal-button" data-modal-close>
+            <svg class="icon-modal">
+              <use href="./images/symbols-defs.svg#icon-close"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </footer>

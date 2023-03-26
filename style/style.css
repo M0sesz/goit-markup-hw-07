@@ -66,6 +66,11 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and(min-width:768px) {
+  .container {
+    max-width: 768px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .container {
@@ -267,6 +272,7 @@ li {
 }
 
 .what {
+  display: flex;
   padding-top: 0px;
   display: none;
 }
@@ -1015,6 +1021,11 @@ button {
   width: auto;
 }
 
+@media screen and (max-width: 1199px) {
+  .header-desktop {
+    display: none;
+  }
+}
 @media screen and (max-width: 767px) {
   .header-tablet {
     display: none;
@@ -1022,11 +1033,6 @@ button {
 }
 
 /*------- TABLET -------*/
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
 
 @media screen and (min-width: 768px) {
   .list-about {
@@ -1087,6 +1093,9 @@ button {
   }
 }
 @media screen and (min-width: 768px) {
+  .header-desktop {
+    display: none;
+  }
   .list-header {
     flex-direction: row;
   }
@@ -1128,5 +1137,120 @@ button {
   }
   .logo-header {
     padding-left: 16px;
+  }
+}
+
+/*---------DESKTOP----------*/
+@media screen and (min-width: 1200px) {
+  .header-tablet {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .addres-header {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .tel-mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-about {
+    flex-wrap: nowrap;
+  }
+  .about-us-item {
+    width: 264px;
+  }
+  .logo-header {
+    margin-right: 76px;
+    line-height: 24px;
+  }
+  .about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+  }
+  .about-us-icon {
+    width: 64px;
+    height: 64px;
+  }
+  .about-us-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: left;
+  }
+  .about-us-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .what {
+    display: block;
+  }
+  .we-doing {
+    display: flex;
+    gap: 30px;
+  }
+  .list-about {
+    display: flex;
+    justify-content: center;
+  }
+  .customers-list {
+    flex-wrap: nowrap;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 16px;
+    gap: 0;
+  }
+  .footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+  .up-footer {
+    margin-right: 120px;
+  }
+  .our-team {
+    flex-wrap: nowrap;
+  }
+  .social-media-footer {
+    margin-right: 80px;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #2e2f42;
   }
 }
