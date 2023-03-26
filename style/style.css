@@ -238,7 +238,6 @@ li {
 }
 
 .about-us-text {
-  margin-bottom: 72px;
   font-size: 16px;
   font-weight: 500;
 
@@ -1069,6 +1068,7 @@ button {
     width: 356px;
   }
   .about-us-text {
+    margin-bottom: 72px;
     font-weight: 500;
   }
 }
